@@ -1,0 +1,34 @@
+SBERTS for RAG:
+ai-forever/sbert_large_nlu_ru !!!!
+sentence-transformers/all-mpnet-base-v2
+
+# Лучшие модели для общего использования
+models = [
+    "intfloat/e5-large-v2",        # 🥇 Лучшая точность
+    "intfloat/e5-base-v2",         # 🥈 Баланс точности/скорости
+    "intfloat/e5-small-v2",        # 🥉 Быстрая, хорошее качество
+]
+models = [
+    "BAAI/bge-large-en-v1.5",      # 🥇 Лучшая для английского
+    "BAAI/bge-m3",                 # 🥈 Многоязычная, мульти-задачная
+    "BAAI/bge-base-en-v1.5",       # 🥈 Баланс качества
+]
+multilingual_models = [
+    "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",  # 🥇
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",  # 🥈
+    "sentence-transformers/distiluse-base-multilingual-cased-v2",   # 🥉
+    "intfloat/multilingual-e5-large",                               # Новинка
+]
+
+для сравнения:
+paraphrase_models = [
+    "sentence-transformers/all-mpnet-base-v2",             # 🥇 Точность
+    "sentence-transformers/all-MiniLM-L12-v2",             # 🥈 Баланс
+    "sentence-transformers/all-distilroberta-v1",          # 🥉 Скорость
+]
+
+
+ОТЛИЧНЫЕ ЛЛМ МОДЕЛИ:
+AvitoTech/avibe
+t-tech/T-lite-it-1.0
+IlyaGusev/saiga_yandexgpt_8b
