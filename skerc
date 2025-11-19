@@ -32,3 +32,9 @@ paraphrase_models = [
 AvitoTech/avibe
 t-tech/T-lite-it-1.0
 IlyaGusev/saiga_yandexgpt_8b
+Vikhrmodels/Vistral-24B-Instruct
+IlyaGusev/saiga_gemma3_12b
+Vikhrmodels/Vikhr-Nemo-12B-Instruct-R-21-09-24
+Vikhrmodels/Vikhr-Llama3.1-8B-Instruct-R-21-09-24
+https://huggingface.co/collections/DeathGodlike/russian-language-models
+ai-forever/rugpt3large_based_on_gpt2
